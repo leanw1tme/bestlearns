@@ -264,11 +264,11 @@ color: #FFFFFF;
   border-color: #ebeef4;
   background-color: #fff;
   color: #798eb3;
-  padding: 20px;
+  padding: 20px ;
 }
 
 .card-title {
-  padding: 15px 0 0 0;
+  top: 500px;
   font-size: 18px;
   font-weight: 500;
   color: #012970;
@@ -282,7 +282,12 @@ color: #FFFFFF;
 }
 
 .card-body {
-  padding: 0 0 100px 100px;
+  height: 175px;
+  width: 260px;
+  left: 340px;
+  top: 92px;
+  border-radius: [object Object]px;
+
 }
 
 .card-img-overlay {
@@ -367,6 +372,7 @@ color: #FFFFFF;
 /* Bordered Tabs */
 .nav-tabs-bordered {
   border-bottom: 2px solid #ebeef4;
+
 }
 
 .nav-tabs-bordered .nav-link {
