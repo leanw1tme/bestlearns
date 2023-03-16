@@ -59,7 +59,40 @@ h6 {
 .pagetitle {
   margin-bottom: 10px;
 }
+   @font-face {
+    font-family: logfont; /* Имя шрифта */
+    src: url(logfont.otf); /* Путь к файлу со шрифтом */
+   }
+#blueblock{
+  height: 1038px;
+  width: 600px;
+  float: left;
+  background-color: #5470C6;
+}
+#logo{
+  position: absolute;
+  top: 258px;
+  left: 115px;
+  width: 370px;
+  height: 125px;
+}
+#words{
+position: absolute;
+width: 444px;
+height: 96px;
+left: 78px;
+top: 417px;
 
+font-family: 'logfont';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
 .pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
