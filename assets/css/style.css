@@ -77,7 +77,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #5470C6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -90,9 +90,9 @@ h6 {
   line-height: 0;
 }
 
-.back-to-top:hover {
-  background: #6776f4;
-  color: #fff;
+.back-to-top:hover  {
+
+  color: #012970;
 }
 
 .back-to-top.active {
@@ -112,6 +112,8 @@ h6 {
   animation-fill-mode: both;
   border: 0;
   box-shadow: 0 5px 30px 0 rgba(82, 63, 105, 0.2);
+  border-radius: 15px;
+
 }
 
 .dropdown-menu .dropdown-header,
@@ -484,6 +486,7 @@ h6 {
 .header-nav .nav-profile span {
   font-size: 14px;
   font-weight: 600;
+
 }
 
 .header-nav .badge-number {
@@ -496,6 +499,7 @@ h6 {
 
 .header-nav .notifications {
   inset: 8px -15px auto auto !important;
+
 }
 
 .header-nav .notifications .notification-item {
@@ -503,36 +507,45 @@ h6 {
   align-items: center;
   padding: 15px 10px;
   transition: 0.3s;
+
 }
 
 .header-nav .notifications .notification-item i {
   margin: 0 20px 0 10px;
   font-size: 24px;
+
+
 }
 
 .header-nav .notifications .notification-item h4 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
+
+
 }
 
 .header-nav .notifications .notification-item p {
   font-size: 13px;
   margin-bottom: 3px;
   color: #919191;
+
 }
 
 .header-nav .notifications .notification-item:hover {
   background-color: #f6f9ff;
+
 }
 
 .header-nav .messages {
   inset: 8px -15px auto auto !important;
+
 }
 
 .header-nav .messages .message-item {
   padding: 15px 10px;
   transition: 0.3s;
+
 }
 
 .header-nav .messages .message-item a {
@@ -549,16 +562,19 @@ h6 {
   font-weight: 600;
   margin-bottom: 5px;
   color: #444444;
+
 }
 
 .header-nav .messages .message-item p {
   font-size: 13px;
   margin-bottom: 3px;
   color: #919191;
+
 }
 
 .header-nav .messages .message-item:hover {
   background-color: #f6f9ff;
+
 }
 
 .header-nav .profile {
@@ -576,12 +592,14 @@ h6 {
 
 .header-nav .profile .dropdown-header span {
   font-size: 14px;
+
 }
 
 .header-nav .profile .dropdown-item {
   font-size: 14px;
   padding: 10px 15px;
   transition: 0.3s;
+
 }
 
 .header-nav .profile .dropdown-item i {
@@ -594,15 +612,17 @@ h6 {
   background-color: #f6f9ff;
 }
 
+
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
 .sidebar {
   position: fixed;
   top: 60px;
-  left: 0;
+  left: 140px;
   bottom: 0;
-  width: 300px;
+  width: 130px;
+  height: 715px;
   z-index: 996;
   transition: all 0.3s;
   padding: 20px;
@@ -610,7 +630,8 @@ h6 {
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-color: #5470C6;
+  border-radius: 30px;
 }
 
 @media (max-width: 1199px) {
@@ -686,33 +707,33 @@ h6 {
   font-weight: 600;
   color: #4154f1;
   transition: 0.3;
-  background: #f6f9ff;
-  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0);
+  padding: 58px 30px;
   border-radius: 4px;
 }
 
 .sidebar-nav .nav-link i {
-  font-size: 16px;
-  margin-right: 10px;
-  color: #4154f1;
+  font-size: 25px;
+  margin-right: 25px;
+  color: #fff;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #012970;
-  background: #fff;
+  color: #fff;
+  background: #5470C6;
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  color: #899bbd;
+  color: #fff;
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #4154f1;
-  background: #f6f9ff;
+  color: #5470C6;
+  background: #5470C6;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #4154f1;
+  color: #012970;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -737,7 +758,7 @@ h6 {
   font-weight: 600;
   color: #012970;
   transition: 0.3;
-  padding: 10px 0 10px 40px;
+  padding: 5px 0 10px 40px;
   transition: 0.3s;
 }
 
