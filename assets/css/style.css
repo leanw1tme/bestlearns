@@ -59,40 +59,7 @@ h6 {
 .pagetitle {
   margin-bottom: 10px;
 }
-   @font-face {
-    font-family: logfont; /* Имя шрифта */
-    src: url(logfont.otf); /* Путь к файлу со шрифтом */
-   }
-#blueblock{
-  height: 1038px;
-  width: 600px;
-  float: left;
-  background-color: #5470C6;
-}
-#logo{
-  position: absolute;
-  top: 258px;
-  left: 115px;
-  width: 370px;
-  height: 125px;
-}
-#words{
-position: absolute;
-width: 444px;
-height: 96px;
-left: 78px;
-top: 417px;
 
-font-family: 'logfont';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 32px;
-text-align: center;
-
-color: #FFFFFF;
-
-}
 .pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
@@ -110,7 +77,7 @@ color: #FFFFFF;
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #5470C6;
+  background: #4154f1;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -123,9 +90,9 @@ color: #FFFFFF;
   line-height: 0;
 }
 
-.back-to-top:hover  {
-
-  color: #012970;
+.back-to-top:hover {
+  background: #6776f4;
+  color: #fff;
 }
 
 .back-to-top.active {
@@ -145,8 +112,6 @@ color: #FFFFFF;
   animation-fill-mode: both;
   border: 0;
   box-shadow: 0 5px 30px 0 rgba(82, 63, 105, 0.2);
-  border-radius: 15px;
-
 }
 
 .dropdown-menu .dropdown-header,
@@ -255,7 +220,7 @@ color: #FFFFFF;
 .card {
   margin-bottom: 30px;
   border: none;
-  border-radius: 5px;
+  border-radius: 40px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
@@ -264,30 +229,31 @@ color: #FFFFFF;
   border-color: #ebeef4;
   background-color: #fff;
   color: #798eb3;
-  padding: 20px ;
+  padding: 15px;
 }
 
 .card-title {
-  top: 500px;
-  font-size: 18px;
+  padding: 5px 0 15px 0;
+  font-size: 21px;
   font-weight: 500;
   color: #012970;
   font-family: "Poppins", sans-serif;
 }
 
 .card-title span {
-  color: #899bbd;
+  color: #012970;
   font-size: 14px;
   font-weight: 400;
 }
 
-.card-body {
-  height: 175px;
-  width: 270px;
-  left: 340px;
-  top: 100px;
-  border-radius: [object Object]px;
+.card-text span {
+  color: #191970;
+  font-size: 16px;
+  font-weight: 400;
+}
 
+.card-body {
+  padding: 9px 20px 20px 20px;
 }
 
 .card-img-overlay {
@@ -372,7 +338,6 @@ color: #FFFFFF;
 /* Bordered Tabs */
 .nav-tabs-bordered {
   border-bottom: 2px solid #ebeef4;
-
 }
 
 .nav-tabs-bordered .nav-link {
@@ -434,6 +399,7 @@ color: #FFFFFF;
   cursor: pointer;
   color: #012970;
 }
+
 
 .header .search-bar {
   min-width: 360px;
@@ -525,7 +491,6 @@ color: #FFFFFF;
 .header-nav .nav-profile span {
   font-size: 14px;
   font-weight: 600;
-
 }
 
 .header-nav .badge-number {
@@ -538,7 +503,6 @@ color: #FFFFFF;
 
 .header-nav .notifications {
   inset: 8px -15px auto auto !important;
-
 }
 
 .header-nav .notifications .notification-item {
@@ -546,45 +510,36 @@ color: #FFFFFF;
   align-items: center;
   padding: 15px 10px;
   transition: 0.3s;
-
 }
 
 .header-nav .notifications .notification-item i {
   margin: 0 20px 0 10px;
   font-size: 24px;
-
-
 }
 
 .header-nav .notifications .notification-item h4 {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 5px;
-
-
 }
 
 .header-nav .notifications .notification-item p {
   font-size: 13px;
   margin-bottom: 3px;
   color: #919191;
-
 }
 
 .header-nav .notifications .notification-item:hover {
   background-color: #f6f9ff;
-
 }
 
 .header-nav .messages {
   inset: 8px -15px auto auto !important;
-
 }
 
 .header-nav .messages .message-item {
   padding: 15px 10px;
   transition: 0.3s;
-
 }
 
 .header-nav .messages .message-item a {
@@ -601,19 +556,16 @@ color: #FFFFFF;
   font-weight: 600;
   margin-bottom: 5px;
   color: #444444;
-
 }
 
 .header-nav .messages .message-item p {
   font-size: 13px;
   margin-bottom: 3px;
   color: #919191;
-
 }
 
 .header-nav .messages .message-item:hover {
   background-color: #f6f9ff;
-
 }
 
 .header-nav .profile {
@@ -631,14 +583,12 @@ color: #FFFFFF;
 
 .header-nav .profile .dropdown-header span {
   font-size: 14px;
-
 }
 
 .header-nav .profile .dropdown-item {
   font-size: 14px;
   padding: 10px 15px;
   transition: 0.3s;
-
 }
 
 .header-nav .profile .dropdown-item i {
@@ -651,42 +601,28 @@ color: #FFFFFF;
   background-color: #f6f9ff;
 }
 
-
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
 .sidebar {
   position: fixed;
-  top: 60px;
+  top: 70px;
   left: 140px;
-  bottom: 0;
-  width: 130px;
-  height: 715px;
+  bottom: 10px;
+  width: 140px;
   z-index: 996;
   transition: all 0.3s;
-  padding: 20px;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #aab7cf transparent;
+  padding: 40px;
+      padding-top: 70px;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-  background-color: #5470C6;
-  border-radius: 30px;
+  background-color: #4169E1;
+    border-radius: 35px;
 }
 
 @media (max-width: 1199px) {
   .sidebar {
     left: -300px;
   }
-}
-
-.sidebar::-webkit-scrollbar {
-  width: 5px;
-  height: 8px;
-  background-color: #fff;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-  background-color: #aab7cf;
 }
 
 @media (min-width: 1200px) {
@@ -728,13 +664,13 @@ color: #FFFFFF;
 }
 
 .sidebar-nav .nav-item {
-  margin-bottom: 5px;
+  margin-bottom: 100px;
 }
 
 .sidebar-nav .nav-heading {
   font-size: 11px;
   text-transform: uppercase;
-  color: #899bbd;
+  color: #f6f9ff;
   font-weight: 600;
   margin: 10px 0 5px 15px;
 }
@@ -746,33 +682,33 @@ color: #FFFFFF;
   font-weight: 600;
   color: #4154f1;
   transition: 0.3;
-  background: rgba(0, 0, 0, 0);
-  padding: 58px 30px;
-  border-radius: 4px;
+  background: #f6f9ff;
+  padding: 11px 18px;
+border-radius: 30px;
 }
 
 .sidebar-nav .nav-link i {
   font-size: 25px;
-  margin-right: 25px;
-  color: #fff;
+  margin-right: 100px;
+  color: #4154f1;
 }
 
 .sidebar-nav .nav-link.collapsed {
-  color: #fff;
-  background: #5470C6;
+  color: #f6f9ff;
+  background: #4169E1;
 }
 
 .sidebar-nav .nav-link.collapsed i {
-  color: #fff;
+  color: #f6f9ff;
 }
 
 .sidebar-nav .nav-link:hover {
-  color: #5470C6;
-  background: #5470C6;
+  color: #4154f1;
+  background: #f6f9ff;
 }
 
 .sidebar-nav .nav-link:hover i {
-  color: #012970;
+  color: #4154f1;
 }
 
 .sidebar-nav .nav-link .bi-chevron-down {
@@ -794,10 +730,10 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-weight: 600;
-  color: #012970;
+  font-weight: 00;
+  color: #f6f9ff;
   transition: 0.3;
-  padding: 5px 0 10px 40px;
+  padding: 10px 0 10px 40px;
   transition: 0.3s;
 }
 
@@ -852,7 +788,6 @@ color: #FFFFFF;
   color: #aab7cf;
   margin-bottom: 0;
   padding: 0;
-
 }
 
 .dashboard .filter .dropdown-item {
@@ -862,7 +797,6 @@ color: #FFFFFF;
 /* Info Cards */
 .dashboard .info-card {
   padding-bottom: 10px;
-  border-radius: 30px;
 }
 
 .dashboard .info-card h6 {
