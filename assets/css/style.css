@@ -1254,14 +1254,31 @@ border-radius: 30px;
 }
 
 .otstup {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #012970;
+  font-weight: 400;
 }
 .otstup1 {
-  padding-top: 0px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 120px;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+.col-left{
+  width: 5%;
+  float: left;
+}
+
+.col-center {
+  width: 90%;
+  float: left;
+}
+
+.col-right i{
+  width: 5%;
+  float: right;
 }
