@@ -1228,3 +1228,34 @@ border-radius: 30px;
   font-size: 13px;
   color: #012970;
 }
+
+.vnutri-kvadratika {
+  display: inline-block;
+  position: absolute;
+  width: 859px;
+  height: 100px;
+  left: 340px;
+  top: 120px;
+  background: #91CC75;
+  border-radius: 30px;
+}
+
+.kvadratik {
+  display: inline-block;
+  position: absolute;
+  width: 760px;
+  height: 100px;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 100px;
+  margin-bottom: 400px;
+  background: black;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.otstup {
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
