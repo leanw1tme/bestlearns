@@ -181,6 +181,44 @@ h6 {
   }
 }
 
+/*анимация */
+#threed{
+   -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+#threed:hover {
+  box-shadow:
+    1px 1px #6495ed,
+    2px 2px #6495ed,
+    3px 3px #6495ed,
+    4px 4px #6495ed,
+    5px 5px #6495ed,
+    6px 6px #6495ed,
+    7px 7px #6495ed;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+#threedyellow{
+   -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+}
+#threedyellow:hover {
+  box-shadow:
+    1px 1px #ffd700,
+    2px 2px #ffd700,
+    3px 3px #ffd700,
+    4px 4px #ffd700,
+    5px 5px #ffd700,
+    6px 6px #ffd700,
+    7px 7px #ffd700;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
 /* Light Backgrounds */
 .bg-primary-light {
   background-color: #cfe2ff;
