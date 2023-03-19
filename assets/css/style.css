@@ -77,7 +77,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #5470C6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -259,7 +259,7 @@ h6 {
 .card {
   margin-bottom: 30px;
   border: none;
-  border-radius: 40px;
+  border-radius: 30px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
@@ -1265,4 +1265,51 @@ border-radius: 30px;
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+/*--------------------------------------------------------------
+# Card-lit
+--------------------------------------------------------------*/
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.card-header {
+  font-family: "Poppins", sans-serif;
+  flex: 0.1;
+  font-size: 60px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #012970;
+  border: none;
+  border-radius: 100px;
+  padding: 5px 20px;
+  text-decoration: none;
+  cursor: pointer;
 }
